@@ -1,0 +1,83 @@
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp: In function 'std::vector<double> splitValueIntoVector(std::__cxx11::string, char)':
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:22:31: error: 'stod' is not a member of 'std'
+         vectorValue.push_back(std::stod(buffer));
+                               ^
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp: In function 'void addShapeIntoVector(std::vector<std::__cxx11::basic_string<char> >, std::vector<Shape*>)':
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:29:36: warning: range-based 'for' loops only available with -std=c++11 or -std=gnu++11
+   for(std::string inputShapeVector:inputContent)
+                                    ^
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:35:35: error: 'stod' is not a member of 'std'
+       shapes.push_back(new Circle(std::stod(value)));
+                                   ^
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp: In function 'int main(int, char**)':
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:74:56: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+   std::vector<Shape*>* shapes = new std::vector<Shape*>{}; //construct shapes parameter in verctor
+                                                        ^
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:94:7: warning: lambda expressions only available with -std=c++11 or -std=gnu++11
+       });
+       ^
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:94:8: error: no matching function for call to 'Sort::sortArea(main(int, char**)::<lambda(Shape*, Shape*)>)'
+       });
+        ^
+In file included from C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:11:0:
+C:\Users\USER\Desktop\107598066_HW-master\src\sort.h:17:10: note: candidate: template<class comparison> void Sort::sortArea(comparison)
+     void sortArea(comparison compare1)
+          ^
+C:\Users\USER\Desktop\107598066_HW-master\src\sort.h:17:10: note:   template argument deduction/substitution failed:
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp: In substitution of 'template<class comparison> void Sort::sortArea(comparison) [with comparison = main(int, char**)::<lambda(Shape*, Shape*)>]':
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:94:8:   required from here
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:94:8: error: template argument for 'template<class comparison> void Sort::sortArea(comparison)' uses local type 'main(int, char**)::<lambda(Shape*, Shape*)>'
+       });
+        ^
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:94:8: error:   trying to instantiate 'template<class comparison> void Sort::sortArea(comparison)'
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:101:7: warning: lambda expressions only available with -std=c++11 or -std=gnu++11
+       });
+       ^
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:101:8: error: no matching function for call to 'Sort::sortArea(main(int, char**)::<lambda(Shape*, Shape*)>)'
+       });
+        ^
+In file included from C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:11:0:
+C:\Users\USER\Desktop\107598066_HW-master\src\sort.h:17:10: note: candidate: template<class comparison> void Sort::sortArea(comparison)
+     void sortArea(comparison compare1)
+          ^
+C:\Users\USER\Desktop\107598066_HW-master\src\sort.h:17:10: note:   template argument deduction/substitution failed:
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp: In substitution of 'template<class comparison> void Sort::sortArea(comparison) [with comparison = main(int, char**)::<lambda(Shape*, Shape*)>]':
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:101:8:   required from here
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:101:8: error: template argument for 'template<class comparison> void Sort::sortArea(comparison)' uses local type 'main(int, char**)::<lambda(Shape*, Shape*)>'
+       });
+        ^
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:101:8: error:   trying to instantiate 'template<class comparison> void Sort::sortArea(comparison)'
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:112:7: warning: lambda expressions only available with -std=c++11 or -std=gnu++11
+       });
+       ^
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:112:8: error: no matching function for call to 'Sort::sortArea(main(int, char**)::<lambda(Shape*, Shape*)>)'
+       });
+        ^
+In file included from C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:11:0:
+C:\Users\USER\Desktop\107598066_HW-master\src\sort.h:17:10: note: candidate: template<class comparison> void Sort::sortArea(comparison)
+     void sortArea(comparison compare1)
+          ^
+C:\Users\USER\Desktop\107598066_HW-master\src\sort.h:17:10: note:   template argument deduction/substitution failed:
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp: In substitution of 'template<class comparison> void Sort::sortArea(comparison) [with comparison = main(int, char**)::<lambda(Shape*, Shape*)>]':
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:112:8:   required from here
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:112:8: error: template argument for 'template<class comparison> void Sort::sortArea(comparison)' uses local type 'main(int, char**)::<lambda(Shape*, Shape*)>'
+       });
+        ^
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:112:8: error:   trying to instantiate 'template<class comparison> void Sort::sortArea(comparison)'
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:119:7: warning: lambda expressions only available with -std=c++11 or -std=gnu++11
+       });
+       ^
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:119:8: error: no matching function for call to 'Sort::sortArea(main(int, char**)::<lambda(Shape*, Shape*)>)'
+       });
+        ^
+In file included from C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:11:0:
+C:\Users\USER\Desktop\107598066_HW-master\src\sort.h:17:10: note: candidate: template<class comparison> void Sort::sortArea(comparison)
+     void sortArea(comparison compare1)
+          ^
+C:\Users\USER\Desktop\107598066_HW-master\src\sort.h:17:10: note:   template argument deduction/substitution failed:
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp: In substitution of 'template<class comparison> void Sort::sortArea(comparison) [with comparison = main(int, char**)::<lambda(Shape*, Shape*)>]':
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:119:8:   required from here
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:119:8: error: template argument for 'template<class comparison> void Sort::sortArea(comparison)' uses local type 'main(int, char**)::<lambda(Shape*, Shape*)>'
+       });
+        ^
+C:\Users\USER\Desktop\107598066_HW-master\src\main.cpp:119:8: error:   trying to instantiate 'template<class comparison> void Sort::sortArea(comparison)'
